@@ -1,6 +1,4 @@
-# html2pdf
+# Odoo Html to PDF
 
-## Using
-
-- https://github.com/HMaker/python-cdp/tree/master
-- https://github.com/westy92/html-pdf-chrome/tree/master
+A PDF conversion tool for Odoo by Odoo using any chromium base browser
+supporting CDP, aiming for compatibility with wkhtmltopdf.
