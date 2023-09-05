@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "id": "webkit2gtk",
+    "type": "lib",
+    "tools": {
+        "cc": {
+            "args": [
+                "@exec",
+                "pkg-config",
+                "--cflags",
+                "webkit2gtk-4.0"
+            ]
+        },
+        "cxx": {
+            "args": [
+                "@exec",
+                "pkg-config",
+                "--cflags",
+                "webkit2gtk-4.0"
+            ]
+        },
+        "ld": {
+            "args": [
+                "@exec",
+                "pkg-config",
+                "--libs",
+                "webkit2gtk-4.0"
+            ]
+        }
+    }
+}

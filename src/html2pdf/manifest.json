@@ -1,0 +1,11 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "exe",
+    "id": "html2pdf",
+    "description": "Convert HTML to PDF",
+    "requires": [
+        "karm-main",
+        "karm-sys",
+        "webkit2gtk"
+    ]
+}
